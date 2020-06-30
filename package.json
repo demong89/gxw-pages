@@ -1,0 +1,58 @@
+{
+  "name": "gxw-pages",
+  "version": "0.2.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "gxw-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/demong89/gxw-pages#readme",
+  "bugs": {
+    "url": "https://github.com/demong89/gxw-pages/issues"
+  },
+  "license": "MIT",
+  "author": "guo <719902060@qq.com>",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demong89/gxw-pages.git"
+  },
+  "bin": "bin/gxw-pages.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-html": "^3.1.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
